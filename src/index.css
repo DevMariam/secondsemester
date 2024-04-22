@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.margin {
+  margin: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* .gap {
+  gap: 10px;
+} */
+
+.xsm-gap {
+  gap: 10px;
+}
+
+.sm-gap {
+  gap: 15px;
+}
+
+.md-gap {
+  gap: 20px;
+}
+
+.lg-gap {
+  gap: 20px;
+}
